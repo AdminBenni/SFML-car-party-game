@@ -1,0 +1,35 @@
+#ifndef STATEMACHINE_HPP
+#define STATEMACHINE_HPP
+
+#include <memory>
+#include <stack>
+#include <string>
+
+#include "State.hpp"
+
+namespace bEngine
+{
+    typedef std::unique_ptr<State> StateRef;
+
+    class StateMachine
+    {
+    public:
+        StateMachine() {}
+        ~StateMachine() {}
+
+        void AddState(StateRef newState, bool isReplacing = true);
+        void RemoveState();
+        void ProcessStateChanges();
+
+        StateRef &GetActiveState();
+
+    private:
+        std::stack<StateRef> _states;
+        StateRef _newState;
+
+        bool _isRemoving, _isAdding, _isReplacing;
+    };
+}
+
+
+#endif // STATEMACHINE_HPP

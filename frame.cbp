@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="frame" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_edit" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/frame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_edit" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="E:/SFML-2.4.2/include" />
+					<Add directory="E:/AdminBenni/Ég/code blocks projects/g/engine" />
+					<Add directory="engine" />
+					<Add directory="engine/Resources" />
+					<Add directory="engine/Resources/res" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add directory="E:/SFML-2.4.2/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/frame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_edit" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++14" />
+					<Add directory="E:/SFML-2.4.2/include" />
+					<Add directory="engine" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add directory="E:/SFML-2.4.2/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="E:/SFML-2.4.2/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="E:/SFML-2.4.2/lib" />
+		</Linker>
+		<Unit filename="engine/AssetManager.cpp" />
+		<Unit filename="engine/AssetManager.hpp" />
+		<Unit filename="engine/Behaviour.cpp" />
+		<Unit filename="engine/Behaviour.hpp" />
+		<Unit filename="engine/Button.cpp" />
+		<Unit filename="engine/Button.hpp" />
+		<Unit filename="engine/Car.cpp" />
+		<Unit filename="engine/Collision.cpp" />
+		<Unit filename="engine/Collision.hpp" />
+		<Unit filename="engine/DEFINITIONS.hpp" />
+		<Unit filename="engine/Game.cpp" />
+		<Unit filename="engine/Game.hpp" />
+		<Unit filename="engine/InputManager.cpp" />
+		<Unit filename="engine/InputManager.hpp" />
+		<Unit filename="engine/MainMenuState.cpp" />
+		<Unit filename="engine/MainMenuState.hpp" />
+		<Unit filename="engine/Object.cpp" />
+		<Unit filename="engine/Object.hpp" />
+		<Unit filename="engine/ObjectManager.cpp" />
+		<Unit filename="engine/ObjectManager.hpp" />
+		<Unit filename="engine/Particle.cpp" />
+		<Unit filename="engine/Particle.hpp" />
+		<Unit filename="engine/PlayState.cpp" />
+		<Unit filename="engine/PlayState.hpp" />
+		<Unit filename="engine/Resources/res/Logo.png" />
+		<Unit filename="engine/Resources/res/frontCar.png" />
+		<Unit filename="engine/Resources/res/noLoad.png" />
+		<Unit filename="engine/Resources/res/topCar.png" />
+		<Unit filename="engine/SplashState.cpp" />
+		<Unit filename="engine/SplashState.hpp" />
+		<Unit filename="engine/State.hpp" />
+		<Unit filename="engine/StateMachine.cpp" />
+		<Unit filename="engine/StateMachine.hpp" />
+		<Unit filename="engine/car.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="openal32.dll" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
