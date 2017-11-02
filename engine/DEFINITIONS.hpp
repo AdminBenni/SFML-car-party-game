@@ -16,6 +16,7 @@
 #define PLAY_BUTTON "engine/Resources/res/Play Button.png"
 #define PLAY_BUTTON_PRESSED "engine/Resources/res/Play Button Pressed.png"
 #define NO_LOAD_TEXTURE "engine/Resources/res/No Load.png"
+#define NONE_SPRITE "engine/Resources/res/None Sprite.png"
 
 #define DELOREAN "engine/Resources/res/Top Car.png"
 

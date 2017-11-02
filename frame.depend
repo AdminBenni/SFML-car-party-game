@@ -396,7 +396,7 @@
 	<string>
 	<vector>
 
-1508882534 e:\adminbenni\Ég\code blocks projects\g\engine\game.hpp
+1509564579 e:\adminbenni\Ég\code blocks projects\g\engine\game.hpp
 	"StateMachine.hpp"
 	"AssetManager.hpp"
 	"InputManager.hpp"
@@ -406,6 +406,8 @@
 	<string>
 	<Windows.h>
 	<cmath>
+	<vector>
+	<thread>
 
 1506033371 e:\adminbenni\Ég\code blocks projects\g\engine\statemachine.hpp
 	<memory>
@@ -460,7 +462,7 @@
 1508359662 source:e:\adminbenni\Ég\code blocks projects\g\engine\assetmanager.cpp
 	"AssetManager.hpp"
 
-1508847367 source:e:\adminbenni\Ég\code blocks projects\g\engine\game.cpp
+1509564606 source:e:\adminbenni\Ég\code blocks projects\g\engine\game.cpp
 	"Game.hpp"
 	"SplashState.hpp"
 	"PlayState.hpp"
@@ -478,7 +480,7 @@
 	"MainMenuState.hpp"
 	<Windows.h>
 
-1508360286 e:\adminbenni\Ég\code blocks projects\g\engine\definitions.hpp
+1509100682 e:\adminbenni\Ég\code blocks projects\g\engine\definitions.hpp
 
 1507738383 source:e:\adminbenni\Ég\code blocks projects\g\engine\splashstate.cpp
 	<sstream>
@@ -494,16 +496,16 @@
 	"PlayState.hpp"
 	<iostream>
 
-1508884265 source:e:\adminbenni\Ég\code blocks projects\g\engine\car.cpp
+1509564843 source:e:\adminbenni\Ég\code blocks projects\g\engine\car.cpp
 	"Car.hpp"
 
-1508889443 e:\adminbenni\Ég\code blocks projects\g\engine\car.hpp
+1509102535 e:\adminbenni\Ég\code blocks projects\g\engine\car.hpp
 	"Game.hpp"
 	<cmath>
 	"Object.hpp"
 	<iostream>
 
-1508882408 source:e:\adminbenni\Ég\code blocks projects\g\engine\playstate.cpp
+1509616939 source:e:\adminbenni\Ég\code blocks projects\g\engine\playstate.cpp
 	"PlayState.hpp"
 	<iostream>
 	<cmath>
@@ -520,20 +522,20 @@
 1507657641 e:\adminbenni\Ég\code blocks projects\g\engine\button.hpp
 	<SFML/Graphics.hpp>
 
-1508882384 e:\adminbenni\Ég\code blocks projects\g\engine\object.hpp
+1509102241 e:\adminbenni\Ég\code blocks projects\g\engine\object.hpp
 	<SFML/Graphics.hpp>
 	<string>
 	<iostream>
 	<memory>
 	<Collision.hpp>
 
-1508882358 source:e:\adminbenni\Ég\code blocks projects\g\engine\object.cpp
+1509101168 source:e:\adminbenni\Ég\code blocks projects\g\engine\object.cpp
 	"Object.hpp"
 
 1508351360 source:e:\adminbenni\Ég\code blocks projects\g\engine\objectmanager.cpp
 	"ObjectManager.hpp"
 
-1508351269 e:\adminbenni\Ég\code blocks projects\g\engine\objectmanager.hpp
+1508941039 e:\adminbenni\Ég\code blocks projects\g\engine\objectmanager.hpp
 	"Object.hpp"
 	<memory>
 	<map>

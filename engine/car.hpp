@@ -28,7 +28,7 @@ namespace bEngine{
     class Car : public Object
     {
         public:
-            Car(GameDataRef data, float speed = 10, float rSpeed = 7, std::string texName = "", KeySet keys = KeySet(), std::string tag = "");
+            Car(GameDataRef data, float speed = 10, float rSpeed = 7, std::string texName = "", KeySet keys = KeySet(), std::string tag = "", std::string name = "");
             //bool isRotating();
             //Direction direction();
             //void setDirection(Direction dir);
@@ -43,6 +43,7 @@ namespace bEngine{
             KeySet getKeys();
             void setKeys(sf::Keyboard::Key leftKey, sf::Keyboard::Key rightKey);
             void setKeys(KeySet keySet);
+            sf::RectangleShape &getFrontCollider();
 
             //Object
             void Init(GameDataRef data){};
@@ -66,8 +67,6 @@ namespace bEngine{
             const float _bounceDegeneration = 0.1f;
             const float _collisionAngleDegeneration = 0.1f;
             float _collisionAngle = 1;
-            /*sf::RectangleShape _fCollider;
-            sf::RectangleShape _bCollider;*/
     };
 }
 

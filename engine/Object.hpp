@@ -14,7 +14,6 @@ namespace bEngine
     struct GameData;
     typedef std::shared_ptr<GameData> GameDataRef;
 
-
     class Object : public sf::Sprite
     {
     public:
@@ -49,16 +48,22 @@ namespace bEngine
 
         std::string GetTag();
         std::string GetName();
+        sf::Sprite &getAttached(std::string name);
+        std::vector<sf::Sprite> getAttachedRaw();
+        std::vector<std::string> getAttachedNamesRaw();
         bool ToBeDrawn(bool val = true);
         bool Collidable();
         bool Collidable(bool val);
         void SetTag(std::string tag);
         void SetName(std::string name);
-    private:
+        void addAttachable(std::string name, sf::Sprite sprite = sf::Sprite());
+    protected:
         bool _toBeDrawn = true;
         std::string _tag;
         std::string _name;
         bool _collidable = false;
+        std::vector<sf::Sprite> _att;
+        std::vector<std::string> _attNames;
     };
 }
 

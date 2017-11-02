@@ -8,6 +8,8 @@
 #include <string>
 #include <Windows.h>
 #include <cmath>
+#include <vector>
+#include <thread>
 
 namespace bEngine
 {
